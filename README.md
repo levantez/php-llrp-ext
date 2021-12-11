@@ -2,6 +2,8 @@
 
 This is beta, dont expect too much, maybe later will be more...
 
+Tested on impinj speedway r420 (firmware 6.2, 6.4.1)
+
 ### instalation 
 
 First you need install php-cpp 
