@@ -49,6 +49,27 @@ var_dump($a->getGpoState(1));
 var_dump($a->getGpiState(1)); // $portNumber
 ```
 
+output:
+
+```
+169.254.1.1
+array(4) {
+  [0]=>
+  string(29) "302D-B75E-2F40-D82B-AE59-3A2B"
+  [1]=>
+  string(29) "302D-B7A6-ED30-006B-AE59-284B"
+  [2]=>
+  string(29) "302D-B7A6-ED30-07EB-AE59-803B"
+  [3]=>
+  string(29) "3034-F7ED-B800-1E80-5AF0-0242"
+}
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(true)
+```
+
 
 
 

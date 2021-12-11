@@ -121,7 +121,7 @@ class PhpLlrp : public Php::Base
             if (0 != llrpApp.enableImpinjExtensions()) {
                 Php::error << "enableImpinjExtensions failed" << std::flush;
                 exit(2);
-            } else printf("enableImpinjExtensions\n");
+            } //else printf("enableImpinjExtensions\n");
 
             // if (0 != llrpApp.resetConfigurationToFactoryDefaults()) {
             //     Php::error << "resetConfigurationToFactoryDefaults failed" << std::flush;
